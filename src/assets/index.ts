@@ -1,0 +1,15 @@
+export const Logo = require("./Logo.svg").default;
+export const Affortable = require("./Affortable.svg").default;
+export const Call = require("./Call.svg").default;
+export const BannerBg = require("./Banner-bg.svg").default;
+export const Office = require("./Office.svg").default;
+export const Cafe = require("./Cafe.svg").default;
+export const Lounge = require("./Lounge.svg").default;
+export const Sports = require("./Sports.svg").default;
+export const Gym = require("./Gym.svg").default;
+export const Wifi = require("./Wifi.svg").default;
+export const QuickBooking = require("./Booking.svg").default;
+export const CalenderStarIcon = require("./Calender-star-icon.svg").default;
+export const DirectionIcon = require("./Direction.svg").default;
+export const Arrows = require("./Arrow.svg").default;
+export const CurrencyRupee = require("./Currency-rupee.svg").default;
