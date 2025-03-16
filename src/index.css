@@ -70,3 +70,14 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.border-discount {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(38, 50, 56, 1);
+  border: 1px solid rgba(38, 50, 56, 1);
+  color: #FFF;
+  font-size: .6rem;
+}

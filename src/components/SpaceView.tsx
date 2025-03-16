@@ -23,7 +23,7 @@ export const SpaceView: React.FC = () => {
     <section className="px4 py3 bg-light-gray">
       <h2 className="mb3 bold left-align">Our Space Overview</h2>
       {data ? (
-        <div className="flex flex-wrap gap2 items-center">
+        <div className="flex flex-wrap gap2 items-center items-stretch">
           {data.map((card, index) => (
             <SpaceViewCard key={index} cardDetails={card} />
           ))}
