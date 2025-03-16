@@ -3,15 +3,16 @@ import { Workspace } from "../utils/workspaceType";
 import PrimaryButton from "./PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
 
+const images = import.meta.glob("../assets/*", { eager: true }) as Record<string, { default: string }>;
+
 interface SpaceViewCardProps {
   cardDetails: Workspace;
 }
 
-export const SpaceViewCard: React.FC<SpaceViewCardProps> = ({
-  cardDetails,
-}) => {
-  const { name = "", images = [], id, day_pass_price } = cardDetails;
-  const imagePath = require(`../assets/${images[0].split("/").pop()}`);
+export const SpaceViewCard: React.FC<SpaceViewCardProps> = ({ cardDetails }) => {
+  const { name = "", images: imageList = [], id, day_pass_price } = cardDetails;
+  const imageName = imageList[0]?.split("/").pop();
+  const imagePath = imageName ? images[`../assets/${imageName}`]?.default : "";
 
   return (
     <div

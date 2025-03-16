@@ -1,15 +1,17 @@
 {
   "compilerOptions": {
-    "target": "ES6",
+    "target": "ESNext",
     "module": "ESNext",
-    "jsx": "react-jsx",
     "strict": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": ["vite/client"],
+    "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "forceConsistentCasingInFileNames": true
-  },
-  "include": ["src/**/*", "src/assets"],
-  "exclude": ["node_modules"]
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  }
 }
