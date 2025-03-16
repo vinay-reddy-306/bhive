@@ -1,11 +1,13 @@
 import { Arrows, CurrencyRupee } from "../assets";
 
 interface SecondaryButtonProps {
-    dayPassPrice: number
+  dayPassPrice: number;
 }
 
-export const SecondaryButton: React.FC<SecondaryButtonProps> = ({dayPassPrice}) => (
-  <button className="border-secondary rounded6 px2 py1 shadow-5 flex items-center gap2">
+export const SecondaryButton: React.FC<SecondaryButtonProps> = ({
+  dayPassPrice,
+}) => (
+  <button className="border-secondary rounded6 px2 py1 shadow-5 flex items-center gap3">
     <div className="flex flex-column gap1">
       <span className="text-gray">Day Pass</span>
       <span className="text-price flex items-center">

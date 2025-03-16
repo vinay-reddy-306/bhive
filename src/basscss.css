@@ -34,6 +34,10 @@
 .line-height-3{ line-height: 1.25 }
 .line-height-4{ line-height: 1.5 }
 
+.min-height100 {
+  min-height: 100%;
+}
+
 .list-style-none{ list-style:none }
 .underline{ text-decoration:underline }
 
@@ -139,6 +143,9 @@
 .pl0{ padding-left:0 }
 .px0{ padding-left:0; padding-right:0 }
 .py0{ padding-top:0;  padding-bottom:0 }
+
+.p05{ padding: .2rem }
+.py05{ padding-top: .2rem; padding-bottom: 0.2rem }
 
 .p1{ padding: .5rem }
 .pt1{ padding-top: .5rem }
@@ -438,13 +445,9 @@
 .items-baseline{ -webkit-box-align:baseline; -webkit-align-items:baseline; -ms-flex-align:baseline; -ms-grid-row-align:baseline; align-items:baseline }
 .items-stretch{ -webkit-box-align:stretch; -webkit-align-items:stretch; -ms-flex-align:stretch; -ms-grid-row-align:stretch; align-items:stretch }
 
-.gap1 {
-  gap: 0.5rem;
-}
-
-.gap2{
-  gap: 1rem;
-}
+.gap1{ gap: 0.5rem }
+.gap2{ gap: 1rem }
+.gap3 { gap: 2rem }
 
 .self-start{ -webkit-align-self:flex-start; -ms-flex-item-align:start; align-self:flex-start }
 .self-end{ -webkit-align-self:flex-end; -ms-flex-item-align:end; align-self:flex-end }
@@ -524,7 +527,15 @@
 }
 
 .border-secondary {
-  border: 0.5px solid rgba(238, 231, 231, 1)
+  border: 0.5px solid rgba(238, 231, 231, 1);
+  background-color: #f9f9f9;
+  stroke: #cec6c6;
+}
+
+.border-primary {
+  border: 1px solid rgba(255, 196, 34, 1);
+  background: rgba(255, 207, 75, 1);
+  stroke: #27ae60;
 }
 
 .border-none{ border:0 }
