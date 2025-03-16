@@ -11,15 +11,14 @@
 .font-size-inherit{ font-size:inherit }
 .text-decoration-none{ text-decoration:none }
 
+.fs35{ font-size: 3.5rem }
+
 .bold{ font-weight: bold; font-weight: bold }
 .regular{ font-weight:normal }
 .italic{ font-style:italic }
 .caps{ text-transform:uppercase; letter-spacing: .2em; }
 
-.fw-700 {
-  font-weight: 700;
-  font-size: 3.5rem;
-}
+.fw-700{ font-weight: 700 }
 
 .left-align{ text-align:left }
 .center{ text-align:center }
@@ -178,6 +177,8 @@
 .pl4{ padding-left: 4rem }
 .py4{ padding-top: 4rem; padding-bottom: 4rem }
 .px4{ padding-left: 4rem; padding-right: 4rem }
+
+.py9{ padding-left: 9rem; padding-right: 9rem }
 
 .col{
   float:left;
@@ -359,6 +360,18 @@
   .md-flex-row {
     display: flex;
   }
+
+  .md-py9{ padding-left: 9rem; padding-right: 9rem }
+
+  .bg-copy-right {
+    width: 100%;
+  }
+ 
+  .md-py3{ padding-top: 2rem; padding-bottom: 2rem }
+  .md-px3{ padding-left: 2rem; padding-right: 2rem }
+
+  .md-py4{ padding-top: 4rem; padding-bottom: 4rem }
+  .md-px4{ padding-left: 4rem; padding-right: 4rem }
 
 }
 @media (min-width: 64em){

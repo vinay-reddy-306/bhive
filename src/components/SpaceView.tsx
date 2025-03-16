@@ -20,7 +20,7 @@ export const SpaceView: React.FC = () => {
   }, []);
 
   return (
-    <section className="px4 py3 bg-light-gray">
+    <section className="md-px4 md-py3 bg-light-gray my3">
       <h2 className="mb3 bold left-align">Our Space Overview</h2>
       {data ? (
         <div className="flex flex-wrap gap2 items-center items-stretch">

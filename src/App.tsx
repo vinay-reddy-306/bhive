@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Amenities from "./components/Amenities";
 import SpaceView from "./components/SpaceView";
+import Footer from "./components/Footer";
+import CopyRight from "./components/CopyRight";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Banner />
       <Amenities />
       <SpaceView />
+      <Footer />
+      <CopyRight />
     </div>
   );
 }

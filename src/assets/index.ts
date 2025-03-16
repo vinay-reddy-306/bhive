@@ -13,3 +13,7 @@ export const CalenderStarIcon = require("./Calender-star-icon.svg").default;
 export const DirectionIcon = require("./Direction.svg").default;
 export const Arrows = require("./Arrow.svg").default;
 export const CurrencyRupee = require("./Currency-rupee.svg").default;
+export const AndroidStore = require("./Android-store.svg").default;
+export const AppleStore = require("./Apple-store.svg").default;
+export const Frame1 = require("./Frame-1.svg").default;
+export const Frame2 = require("./Frame-2.svg").default;

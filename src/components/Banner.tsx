@@ -2,7 +2,7 @@ export const Banner: React.FC = () => {
   return (
     <section className="flex flex-wrap items-center fit">
       <div className="banner-bg col-12 md-col-7 lg-col-8 flex items-center">
-        <div className="fw-700 col-12 md-col-10 lg-col-9">
+        <div className="fw-700 fs35 col-12 md-col-10 lg-col-9">
           Host your meeting with world-class amenities. Starting at
           <span className="primary2"> ₹199/-!</span>
         </div>
